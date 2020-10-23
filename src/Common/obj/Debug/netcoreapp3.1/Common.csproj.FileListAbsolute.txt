@@ -1,0 +1,11 @@
+K:\GitHub\CreditBroker\src\Common\bin\Debug\netcoreapp3.1\Hlopov.Common.deps.json
+K:\GitHub\CreditBroker\src\Common\bin\Debug\netcoreapp3.1\Hlopov.Common.dll
+K:\GitHub\CreditBroker\src\Common\bin\Debug\netcoreapp3.1\Hlopov.Common.pdb
+K:\GitHub\CreditBroker\src\Common\bin\Debug\netcoreapp3.1\Hlopov.CreditBroker.Identification.Core.dll
+K:\GitHub\CreditBroker\src\Common\bin\Debug\netcoreapp3.1\Hlopov.CreditBroker.Identification.Core.pdb
+K:\GitHub\CreditBroker\src\Common\obj\Debug\netcoreapp3.1\Common.csprojAssemblyReference.cache
+K:\GitHub\CreditBroker\src\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfoInputs.cache
+K:\GitHub\CreditBroker\src\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
+K:\GitHub\CreditBroker\src\Common\obj\Debug\netcoreapp3.1\Common.csproj.CopyComplete
+K:\GitHub\CreditBroker\src\Common\obj\Debug\netcoreapp3.1\Hlopov.Common.dll
+K:\GitHub\CreditBroker\src\Common\obj\Debug\netcoreapp3.1\Hlopov.Common.pdb

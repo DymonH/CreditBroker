@@ -1,0 +1,62 @@
+<main class="login">
+    <div class="login-form">
+        <h1 class="title">Вход в систему</h1>
+        <form [formGroup]="loginForm">
+            <ul class="fields">
+                <li>
+                    <app-input [isFilled]="!!username.value">
+                        <input
+                            id="username"
+                            type="text"
+                            formControlName="username"
+                        >
+                        <label for="username">E-mail</label>
+                        <span class="helper">
+                            E-mail в формате example@mail.com
+                        </span>
+                    </app-input>
+                </li>
+                <li>
+                    <app-input [isFilled]="!!password.value">
+                        <input
+                            id="password"
+                            type="password"
+                            formControlName="password"
+                        >
+                        <label for="password">Пароль</label>
+                        <span class="helper error">Не указан E-mail</span>
+                    </app-input>
+                </li>
+            </ul>
+
+            <div class="error-block" *ngIf="(isError$ | async)">
+                Некорректный логин или пароль
+            </div>
+
+            <p class="bottom-wrapper">
+                <app-checkbox>
+                    <input
+                        class="visually-hidden"
+                        id="remember"
+                        type="checkbox"
+                    >
+                    <label for="remember">
+                        Запомнить меня
+                    </label>
+                </app-checkbox>
+                <button
+                    class="button"
+                    type="submit"
+                    [attr.disabled]="submitting$.value ? 'disabled' : null"
+                    (click)="onSubmit($event)">
+                    Войти
+                </button>
+            </p>
+
+            <p class="link-wrapper">
+                <a class="link" href="#">Забыли пароль?</a>
+            </p>
+        </form>
+    </div>
+</main>
+

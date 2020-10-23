@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Hlopov.CreditBroker.Identification.Core</RootNamespace>
+    <AssemblyName>Hlopov.CreditBroker.Identification.Core</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Settings.StyleCop" />
+    <None Remove="StyleCop.Cache" />
+  </ItemGroup>
+
+</Project>

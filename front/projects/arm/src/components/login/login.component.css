@@ -1,0 +1,44 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--color-neutral-light);
+}
+
+.login-form {
+    width: calc(408px - 64px * 2);
+    padding: 26px 64px 29px;
+    background-color: var(--color-basic-white);
+    border-radius: var(--border-radius-number);
+    box-shadow: var(--shadow-three);
+}
+
+.title {
+    text-align: center;
+}
+
+.fields {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bottom-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 0 35px;
+    text-align: center;
+}
+
+.link-wrapper {
+    margin: 0;
+    text-align: center;
+    color: var(--color-neutral-gray);
+}
+
+.link {
+    font-size: 10px;
+    letter-spacing: 0.15em;
+}

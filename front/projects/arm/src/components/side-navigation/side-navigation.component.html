@@ -1,0 +1,138 @@
+<nav class="side-navigation">
+    <ul class="menu">
+        <li [ngClass]="{ 'active': currentActiveToggle === 'Заявки'}">
+            <button
+                class="toggle"
+                type="button"
+                aria-label="Заявки"
+                (click)="onToggleClick($event)"
+            >
+                <svg width="27" height="40">
+                    <use xlink:href="#i-apps"></use>
+                </svg>
+                <span class="tooltip">Заявки</span>
+            </button>
+            <ul class="submenu">
+                <li>
+                    <a routerLink="/">Все заявки</a>
+                </li>
+                <li>
+                    <a routerLink="/">Заявки для колл-центра</a>
+                </li>
+                <li>
+                    <a routerLink="/">Заявки для логистики</a>
+                </li>
+                <li>
+                    <a routerLink="/">Заявки для верификации</a>
+                </li>
+            </ul>
+        </li>
+        <li [ngClass]="{ 'active': currentActiveToggle === 'Контрагенты'}">
+            <button
+                class="toggle"
+                type="button"
+                aria-label="Контрагенты"
+                (click)="onToggleClick($event)"
+            >
+                <svg width="37" height="37">
+                    <use xlink:href="#i-partners"></use>
+                </svg>
+                <span class="tooltip">Контрагенты</span>
+            </button>
+            <ul class="submenu">
+                <li>
+                    <a routerLink="/">Список магазинов</a>
+                </li>
+                <li>
+                    <a routerLink="/">Структура магазинов</a>
+                </li>
+                <li>
+                    <a routerLink="/">Список финансовых организаций</a>
+                </li>
+                <li>
+                    <a routerLink="/">Список страховых компаний</a>
+                </li>
+            </ul>
+        </li>
+        <li [ngClass]="{ 'active': currentActiveToggle === 'Агенты'}">
+            <button
+                class="toggle"
+                type="button"
+                aria-label="Агенты"
+                (click)="onToggleClick($event)"
+            >
+                <svg width="37" height="30">
+                    <use xlink:href="#i-agents"></use>
+                </svg>
+                <span class="tooltip">Агенты</span>
+            </button>
+            <ul class="submenu">
+                <li>
+                    <a routerLink="/">Список агентов</a>
+                </li>
+            </ul>
+        </li>
+        <li [ngClass]="{ 'active': currentActiveToggle === 'Сотрудники'}">
+            <button
+                class="toggle"
+                type="button"
+                aria-label="Сотрудники"
+                (click)="onToggleClick($event)"
+            >
+                <svg width="35" height="37">
+                    <use xlink:href="#i-colleagues"></use>
+                </svg>
+                <span class="tooltip">Сотрудники</span>
+            </button>
+            <ul class="submenu">
+                <li>
+                    <a [routerLink]="['/dashboard', 'users']">Список сотрудников</a>
+                </li>
+            </ul>
+        </li>
+        <li [ngClass]="{ 'active': currentActiveToggle === 'Логи'}">
+            <button
+                class="toggle"
+                type="button"
+                aria-label="Логи"
+                (click)="onToggleClick($event)"
+            >
+                <svg width="29" height="37">
+                    <use xlink:href="#i-logs"></use>
+                </svg>
+                <span class="tooltip">Логи</span>
+            </button>
+            <ul class="submenu">
+                <li>
+                    <a routerLink="/">Системные логи</a>
+                </li>
+                <li>
+                    <a routerLink="/">Логи интеграции</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a class="toggle" routerLink="/" aria-label="Настройки">
+                <svg width="37" height="37">
+                    <use xlink:href="#i-settings"></use>
+                </svg>
+                <span class="tooltip">Настройки</span>
+            </a>
+        </li>
+        <li>
+            <button
+                class="toggle toggle--expand"
+                [ngClass]="{ 'toggle--opened': currentActiveToggle }"
+                type="button"
+                [attr.aria-label]="expandLabel"
+                (click)="onExpandClick()"
+                [disabled]="!currentActiveToggle"
+            >
+                <svg width="29" height="13">
+                    <use xlink:href="#i-arrow-big"></use>
+                </svg>
+                <span class="tooltip">{{ expandLabel }}</span>
+            </button>
+        </li>
+    </ul>
+</nav>

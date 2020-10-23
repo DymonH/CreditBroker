@@ -1,0 +1,7 @@
+K:\GitHub\CreditBroker\src\Identification.Core\bin\Debug\netcoreapp3.1\Hlopov.CreditBroker.Identification.Core.deps.json
+K:\GitHub\CreditBroker\src\Identification.Core\bin\Debug\netcoreapp3.1\Hlopov.CreditBroker.Identification.Core.dll
+K:\GitHub\CreditBroker\src\Identification.Core\bin\Debug\netcoreapp3.1\Hlopov.CreditBroker.Identification.Core.pdb
+K:\GitHub\CreditBroker\src\Identification.Core\obj\Debug\netcoreapp3.1\Identification.Core.AssemblyInfoInputs.cache
+K:\GitHub\CreditBroker\src\Identification.Core\obj\Debug\netcoreapp3.1\Identification.Core.AssemblyInfo.cs
+K:\GitHub\CreditBroker\src\Identification.Core\obj\Debug\netcoreapp3.1\Hlopov.CreditBroker.Identification.Core.dll
+K:\GitHub\CreditBroker\src\Identification.Core\obj\Debug\netcoreapp3.1\Hlopov.CreditBroker.Identification.Core.pdb

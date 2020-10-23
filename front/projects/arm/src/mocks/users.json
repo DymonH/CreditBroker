@@ -1,0 +1,179 @@
+[
+    {
+        "id": 0,
+        "fullName": "Красильников Ибрагил Анатольевич",
+        "department": "Департамент по работе с финансовыми организациями",
+        "position": "Финансовый контроллер",
+        "email": "testtesttest@testtest.test",
+        "phone": "+7-123-123-12-12",
+        "birthDate": "15.06.2020",
+        "active": false,
+        "devices": [
+            {
+                "name": "Устройство 1",
+                "authDate": "23.06.2020 09-00",
+                "authExpire": "30.06.2020 09-00"
+            },
+            {
+                "name": "Устройство 2",
+                "authDate": "23.06.2020 09-00",
+                "authExpire": "30.06.2020 09-00"
+            },
+            {
+                "name": "Устройство 3",
+                "authDate": "23.06.2020 09-00",
+                "authExpire": "30.06.2020 09-00"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "fullName": "Красильников Ибрагил Анатольевич",
+        "department": "Департамент по работе с финансовыми организациями",
+        "position": "Финансовый контроллер",
+        "email": "testtesttest@testtest.test",
+        "phone": "+7-123-123-12-12",
+        "birthDate": "15.06.2020",
+        "active": true
+    },
+    {
+        "id": 2,
+        "fullName": "Красильников Ибрагил Анатольевич",
+        "department": "Департамент по работе с финансовыми организациями",
+        "position": "Финансовый контроллер",
+        "email": "testtesttest@testtest.test",
+        "phone": "+7-123-123-12-12",
+        "birthDate": "15.06.2020",
+        "active": true
+    },
+    {
+        "id": 3,
+        "fullName": "Красильников Ибрагил Анатольевич",
+        "department": "Департамент по работе с финансовыми организациями",
+        "position": "Финансовый контроллер",
+        "email": "testtesttest@testtest.test",
+        "phone": "+7-123-123-12-12",
+        "birthDate": "15.06.2020",
+        "active": true
+    },
+    {
+        "id": 4,
+        "fullName": "Красильников Ибрагил Анатольевич",
+        "department": "Департамент по работе с финансовыми организациями",
+        "position": "Финансовый контроллер",
+        "email": "testtesttest@testtest.test",
+        "phone": "+7-123-123-12-12",
+        "birthDate": "15.06.2020",
+        "active": true
+    },
+    {
+        "id": 5,
+        "fullName": "Красильников Ибрагил Анатольевич",
+        "department": "Департамент по работе с финансовыми организациями",
+        "position": "Финансовый контроллер",
+        "email": "testtesttest@testtest.test",
+        "phone": "+7-123-123-12-12",
+        "birthDate": "15.06.2020",
+        "active": true
+    },
+    {
+        "id": 6,
+        "fullName": "Красильников Ибрагил Анатольевич",
+        "department": "Департамент по работе с финансовыми организациями",
+        "position": "Финансовый контроллер",
+        "email": "testtesttest@testtest.test",
+        "phone": "+7-123-123-12-12",
+        "birthDate": "15.06.2020",
+        "active": true
+    },
+    {
+        "id": 7,
+        "fullName": "Красильников Ибрагил Анатольевич",
+        "department": "Департамент по работе с финансовыми организациями",
+        "position": "Финансовый контроллер",
+        "email": "testtesttest@testtest.test",
+        "phone": "+7-123-123-12-12",
+        "birthDate": "15.06.2020",
+        "active": true
+    },
+    {
+        "id": 8,
+        "fullName": "Красильников Ибрагил Анатольевич",
+        "department": "Департамент по работе с финансовыми организациями",
+        "position": "Финансовый контроллер",
+        "email": "testtesttest@testtest.test",
+        "phone": "+7-123-123-12-12",
+        "birthDate": "15.06.2020",
+        "active": true
+    },
+    {
+        "id": 9,
+        "fullName": "Красильников Ибрагил Анатольевич",
+        "department": "Департамент по работе с финансовыми организациями",
+        "position": "Финансовый контроллер",
+        "email": "testtesttest@testtest.test",
+        "phone": "+7-123-123-12-12",
+        "birthDate": "15.06.2020",
+        "active": true
+    },
+    {
+        "id": 10,
+        "fullName": "Красильников Ибрагил Анатольевич",
+        "department": "Департамент по работе с финансовыми организациями",
+        "position": "Финансовый контроллер",
+        "email": "testtesttest@testtest.test",
+        "phone": "+7-123-123-12-12",
+        "birthDate": "15.06.2020",
+        "active": true
+    },
+    {
+        "id": 11,
+        "fullName": "Красильников Ибрагил Анатольевич",
+        "department": "Департамент по работе с финансовыми организациями",
+        "position": "Финансовый контроллер",
+        "email": "testtesttest@testtest.test",
+        "phone": "+7-123-123-12-12",
+        "birthDate": "15.06.2020",
+        "active": true
+    },
+    {
+        "id": 12,
+        "fullName": "Красильников Ибрагил Анатольевич",
+        "department": "Департамент по работе с финансовыми организациями",
+        "position": "Финансовый контроллер",
+        "email": "testtesttest@testtest.test",
+        "phone": "+7-123-123-12-12",
+        "birthDate": "15.06.2020",
+        "active": true
+    },
+    {
+        "id": 13,
+        "fullName": "Красильников Ибрагил Анатольевич",
+        "department": "Департамент по работе с финансовыми организациями",
+        "position": "Финансовый контроллер",
+        "email": "testtesttest@testtest.test",
+        "phone": "+7-123-123-12-12",
+        "birthDate": "15.06.2020",
+        "active": true
+    },
+    {
+        "id": 14,
+        "fullName": "Красильников Ибрагил Анатольевич",
+        "department": "Департамент по работе с финансовыми организациями",
+        "position": "Финансовый контроллер",
+        "email": "testtesttest@testtest.test",
+        "phone": "+7-123-123-12-12",
+        "birthDate": "15.06.2020",
+        "active": true
+    },
+    {
+        "id": 15,
+        "fullName": "Красильников Ибрагил Анатольевич",
+        "department": "Департамент по работе с финансовыми организациями",
+        "position": "Финансовый контроллер",
+        "email": "testtesttest@testtest.test",
+        "phone": "+7-123-123-12-12",
+        "birthDate": "15.06.2020",
+        "active": true
+    }
+]

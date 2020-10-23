@@ -1,0 +1,46 @@
+<section class="users">
+    <h1 class="title-secondary">Список сотрудников компании</h1>
+    <div class="content">
+        <ng-template
+            #fullNameTemplate
+            let-row
+            let-rowIndex="rowIndex"
+            let-column="column"
+        >
+            <a [routerLink]="row.id">
+                {{ row.fullName }}
+            </a>
+        </ng-template>
+        <ng-template
+            #activeTemplate
+            let-row
+            let-rowIndex="rowIndex"
+            let-column="column"
+        >
+            <div class="checkbox active-column">
+                <app-checkbox>
+                    <input
+                        class="visually-hidden"
+                        type="checkbox"
+                        [id]="'user-active-' + rowIndex"
+                        [checked]="row.active"
+                    >
+                    <label [for]="'user-active-' + rowIndex">
+                        <span class="visually-hidden">
+                            {{
+                                row.active
+                                    ? 'Отключить пользователя'
+                                    : 'Активен'
+                            }}
+                        </span>
+                    </label>
+                </app-checkbox>
+            </div>
+        </ng-template>
+        <ngx-table
+            [configuration]="configuration"
+            [data]="data"
+            [columns]="columns"
+        ></ngx-table>
+    </div>
+</section>

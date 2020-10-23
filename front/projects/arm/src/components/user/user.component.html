@@ -1,0 +1,136 @@
+<section class="user">
+    <section class="info-wrapper">
+        <h2 class="title-secondary">
+            Личные данные
+        </h2>
+        <form class="info content" [formGroup]="userForm">
+            <ul class="fields">
+                <li>
+                    <app-input [isFilled]="!!username.value">
+                        <input
+                            id="info-full-name"
+                            type="text"
+                            formControlName="username"
+                        >
+                        <label for="info-full-name">ФИО</label>
+                    </app-input>
+                </li>
+                <li>
+                    <app-input [isFilled]="!!position.value">
+                        <input
+                            id="info-position"
+                            type="text"
+                            formControlName="position"
+                        >
+                        <label for="info-position">Должность</label>
+                    </app-input>
+                </li>
+                <li>
+                    <app-input [isFilled]="!!department.value">
+                        <input
+                            id="info-department"
+                            type="text"
+                            formControlName="department"
+                        >
+                        <label for="info-department">Подразделение</label>
+                    </app-input>
+                </li>
+                <li>
+                    <app-input [isFilled]="!!email.value">
+                        <input
+                            id="info-email"
+                            type="text"
+                            formControlName="email"
+                        >
+                        <label for="info-email">E-mail</label>
+                    </app-input>
+                </li>
+                <li>
+                    <app-input [isFilled]="!!phone.value">
+                        <input
+                            id="info-phone"
+                            type="text"
+                            formControlName="phone"
+                        >
+                        <label for="info-phone">Телефон</label>
+                    </app-input>
+                </li>
+                <li>
+                    <app-input [isFilled]="!!birthDate.value">
+                        <input
+                            id="info-birth-date"
+                            type="text"
+                            formControlName="birthDate"
+                        >
+                        <label for="info-birth-date">Дата рождения</label>
+                    </app-input>
+                </li>
+            </ul>
+            <p class="submit-wrapper">
+                <button class="button" type="submit">Сохранить</button>
+            </p>
+        </form>
+    </section>
+    <section class="password-wrapper">
+        <h2 class="title-secondary">
+            Смена пароля
+        </h2>
+        <form class="password content" [formGroup]="passwordForm">
+            <ul class="fields">
+                <li>
+                    <app-input [isFilled]="!!passwordNew.value">
+                        <input
+                            id="password-new"
+                            type="password"
+                            formControlName="passwordNew"
+                        >
+                        <label for="password-new">Новый пароль</label>
+                    </app-input>
+                </li>
+                <li>
+                    <app-input [isFilled]="!!passwordRepeat.value">
+                        <input
+                            id="password-new-repeat"
+                            type="password"
+                            formControlName="passwordRepeat"
+                        >
+                        <label for="password-new-repeat">
+                            Повторите новый пароль
+                        </label>
+                    </app-input>
+                </li>
+                <li>
+                    <app-input [isFilled]="!!passwordCurrent.value">
+                        <input
+                            id="password-current"
+                            type="password"
+                            formControlName="passwordCurrent"
+                        >
+                        <label for="password-current">Текущий пароль</label>
+                    </app-input>
+                </li>
+            </ul>
+            <button class="button" type="submit">Сохранить пароль</button>
+        </form>
+    </section>
+    <section class="devices-wrapper">
+        <h2 class="title-secondary">Устройства</h2>
+        <div class="content">
+            <ng-template
+                #logoutTemplate
+                let-row
+                let-rowIndex="rowIndex"
+                let-column="column"
+            >
+                <button class="button" type="button">
+                    Выйти
+                </button>
+            </ng-template>
+            <ngx-table
+                [configuration]="configuration"
+                [data]="user.devices"
+                [columns]="columns"
+            ></ngx-table>
+        </div>
+    </section>
+</section>

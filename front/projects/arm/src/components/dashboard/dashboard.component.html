@@ -1,0 +1,21 @@
+<div class="dashboard">
+    <div class="header">
+        <app-header></app-header>
+    </div>
+    <div class="side-nav">
+        <app-side-navigation (menuExpanded)="onMenuExpanded($event)"></app-side-navigation>
+    </div>
+    <main
+        class="main"
+        [ngClass]="{ 'main--side-menu-expanded': isMenuExpanded}"
+    >
+        <router-outlet></router-outlet>
+
+        <div *ngIf="(user$ | async) as user"
+             style="display: none; color: red;">
+            {{ user.name }}
+        </div>
+    </main>
+</div>
+
+

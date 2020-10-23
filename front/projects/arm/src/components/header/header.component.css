@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 0 15px;
+    color: var(--color-basic-white);
+    background-color: var(--color-basic-accent);
+}
+
+.logo {
+    width: 148px;
+    height: 22px;
+    margin: 0 20px 0 0;
+}
+
+.logo img {
+    display: block;
+    width: 148px;
+    height: 22px;
+}
+
+.user-menu {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.user-menu li {
+    margin-left: 8px;
+}
+
+.user-menu a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+
+.user-menu a:hover {
+    background-color: var(--color-accent-lighter);
+}

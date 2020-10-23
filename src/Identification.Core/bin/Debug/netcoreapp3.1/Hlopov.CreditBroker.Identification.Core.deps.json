@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Hlopov.CreditBroker.Identification.Core/1.0.0": {
+        "runtime": {
+          "Hlopov.CreditBroker.Identification.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Hlopov.CreditBroker.Identification.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

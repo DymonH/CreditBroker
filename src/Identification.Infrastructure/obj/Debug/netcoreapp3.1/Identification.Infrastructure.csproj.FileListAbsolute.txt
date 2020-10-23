@@ -1,0 +1,13 @@
+K:\GitHub\CreditBroker\src\Identification.Infrastructure\bin\Debug\netcoreapp3.1\Hlopov.CreditBroker.Identification.Infrastructure.deps.json
+K:\GitHub\CreditBroker\src\Identification.Infrastructure\bin\Debug\netcoreapp3.1\Hlopov.CreditBroker.Identification.Infrastructure.runtimeconfig.json
+K:\GitHub\CreditBroker\src\Identification.Infrastructure\bin\Debug\netcoreapp3.1\Hlopov.CreditBroker.Identification.Infrastructure.runtimeconfig.dev.json
+K:\GitHub\CreditBroker\src\Identification.Infrastructure\bin\Debug\netcoreapp3.1\Hlopov.CreditBroker.Identification.Infrastructure.dll
+K:\GitHub\CreditBroker\src\Identification.Infrastructure\bin\Debug\netcoreapp3.1\Hlopov.CreditBroker.Identification.Infrastructure.pdb
+K:\GitHub\CreditBroker\src\Identification.Infrastructure\bin\Debug\netcoreapp3.1\Hlopov.CreditBroker.Identification.Core.dll
+K:\GitHub\CreditBroker\src\Identification.Infrastructure\bin\Debug\netcoreapp3.1\Hlopov.CreditBroker.Identification.Core.pdb
+K:\GitHub\CreditBroker\src\Identification.Infrastructure\obj\Debug\netcoreapp3.1\Identification.Infrastructure.csprojAssemblyReference.cache
+K:\GitHub\CreditBroker\src\Identification.Infrastructure\obj\Debug\netcoreapp3.1\Identification.Infrastructure.AssemblyInfoInputs.cache
+K:\GitHub\CreditBroker\src\Identification.Infrastructure\obj\Debug\netcoreapp3.1\Identification.Infrastructure.AssemblyInfo.cs
+K:\GitHub\CreditBroker\src\Identification.Infrastructure\obj\Debug\netcoreapp3.1\Identification.Infrastructure.csproj.CopyComplete
+K:\GitHub\CreditBroker\src\Identification.Infrastructure\obj\Debug\netcoreapp3.1\Hlopov.CreditBroker.Identification.Infrastructure.dll
+K:\GitHub\CreditBroker\src\Identification.Infrastructure\obj\Debug\netcoreapp3.1\Hlopov.CreditBroker.Identification.Infrastructure.pdb

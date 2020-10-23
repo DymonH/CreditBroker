@@ -1,0 +1,140 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "arm": {
+      "projectType": "application",
+      "schematics": {},
+      "root": "projects/arm",
+      "sourceRoot": "projects/arm/src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/arm",
+            "index": "projects/arm/src/index.html",
+            "main": "projects/arm/src/main.ts",
+            "polyfills": "projects/arm/src/polyfills.ts",
+            "tsConfig": "projects/arm/tsconfig.app.json",
+            "aot": true,
+            "assets": [
+              "projects/arm/src/favicon.ico",
+              "projects/arm/src/assets"
+            ],
+            "styles": [
+              "node_modules/ngx-easy-table/style.css",
+              "projects/arm/src/styles.css"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+		    "mock": {
+              "fileReplacements": [
+                {
+                  "replace": "projects/arm/src/environments/environment.ts",
+                  "with": "projects/arm/src/environments/environment.mock.ts"
+                }
+              ],
+			  "extractCss": false,
+			},
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "projects/arm/src/environments/environment.ts",
+                  "with": "projects/arm/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "arm:build"
+          },
+          "configurations": {
+		    "mock": {
+              "browserTarget": "arm:build:mock"
+			},
+            "production": {
+              "browserTarget": "arm:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "arm:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/arm/src/test.ts",
+            "polyfills": "projects/arm/src/polyfills.ts",
+            "tsConfig": "projects/arm/tsconfig.spec.json",
+            "karmaConfig": "projects/arm/karma.conf.js",
+            "assets": [
+              "projects/arm/src/favicon.ico",
+              "projects/arm/src/assets"
+            ],
+            "styles": [
+              "projects/arm/src/styles.css"
+            ],
+            "scripts": []
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/arm/tsconfig.app.json",
+              "projects/arm/tsconfig.spec.json",
+              "projects/arm/e2e/tsconfig.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "e2e": {
+          "builder": "@angular-devkit/build-angular:protractor",
+          "options": {
+            "protractorConfig": "projects/arm/e2e/protractor.conf.js",
+            "devServerTarget": "arm:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "arm:serve:production"
+            }
+          }
+        }
+      }
+    }},
+  "cli": {
+    "analytics": false
+  },
+  "defaultProject": "arm"
+}

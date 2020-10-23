@@ -1,0 +1,91 @@
+.input {
+    position: relative;
+    margin: 0 0 24px;
+    font-size: 16px;
+}
+
+.input input {
+    width: 100%;
+    padding: 12px 15px 15px;
+    color: var(--color-basic-black);
+    border: 1px solid var(--color-basic-lighter);
+    border-radius: var(--border-radius-small-number);
+    box-sizing: border-box;
+    outline: none;
+    caret-color: var(--color-basic-black);
+}
+
+.input input:not(:disabled):hover {
+    border-color: var(--color-basic-black);
+}
+
+.input input:not(:disabled):focus {
+    border-color: var(--color-basic-accent);
+    caret-color: var(--color-basic-accent);
+    box-shadow: 0 0 0 1px var(--color-basic-accent) inset;
+}
+
+.input input.ng-touched.ng-invalid {
+    border-color: var(--color-error);
+}
+
+.input input.ng-touched.ng-invalid:focus {
+    box-shadow: 0 0 0 1px var(--color-error) inset;
+}
+
+.input input:disabled {
+    color: var(--color-disabled-text);
+    background-color: var(--color-disabled);
+    border-color: var(--color-disabled);
+}
+
+.input label {
+    position: absolute;
+    top: 13px;
+    left: 12px;
+    padding: 0 4px;
+    color: var(--color-basic-lighter);
+    transition: 0.1s cubic-bezier(.17,.67,.83,.67);
+}
+
+.input input:not(:disabled):hover ~ label {
+    color: var(--color-basic-black);
+}
+
+.input--filled label,
+.input input:focus ~ label {
+    top: -7px;
+    font-size: 13px;
+    color: var(--color-basic-lighter);
+    background-color: var(--color-basic-white);
+    transform: none;
+}
+
+.input input:not(:disabled):focus ~ label {
+    color: var(--color-basic-accent);
+}
+
+.input input.ng-touched.ng-invalid ~ label {
+    color: var(--color-error);
+}
+
+.input input:disabled ~ label {
+    color: var(--color-disabled-text);
+}
+
+.input .helper {
+    display: block;
+    margin-top: 2px;
+    padding: 0 16px;
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--color-basic-black);
+}
+
+.input .error {
+    color: var(--color-error);
+}
+
+.input input:disabled ~ .helper {
+    color: var(--color-disabled-text);
+}

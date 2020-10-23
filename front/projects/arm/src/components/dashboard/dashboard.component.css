@@ -1,0 +1,27 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.side-nav {
+    position: fixed;
+    top: 30px;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+}
+
+.main {
+    padding-top: 46px;
+    padding-left: 69px;
+    padding-right: 27px;
+    background-color: var(--color-neutral-light);
+}
+
+.main--side-menu-expanded {
+    padding-left: 319px;
+}

@@ -1,0 +1,216 @@
+<StyleCopSettings Version="105">
+  <Parsers>
+    <Parser ParserId="StyleCop.CSharp.CsParser">
+      <ParserSettings>
+        <BooleanProperty Name="AnalyzeDesignerFiles">False</BooleanProperty>
+      </ParserSettings>
+    </Parser>
+  </Parsers>
+  <Analyzers>
+    <Analyzer AnalyzerId="StyleCop.CSharp.DocumentationRules">
+      <Rules>
+        <Rule Name="ElementsMustBeDocumented">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="FileMustHaveHeader">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="FileHeaderMustShowCopyright">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementReturnValueMustBeDocumented">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="ElementDocumentationMustBeSpelledCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="DocumentationTextMustContainWhitespace">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="EnumerationItemsMustBeDocumented">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="PropertySummaryDocumentationMustMatchAccessors">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="DocumentationMustMeetCharacterPercentage">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings />
+    </Analyzer>
+    <Analyzer AnalyzerId="StyleCop.CSharp.SpacingRules">
+      <Rules>
+        <Rule Name="TabsMustNotBeUsed">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings />
+    </Analyzer>
+    <Analyzer AnalyzerId="StyleCop.CSharp.OrderingRules">
+      <Rules>
+        <Rule Name="UsingDirectivesMustBePlacedWithinNamespace">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings />
+    </Analyzer>
+    <Analyzer AnalyzerId="StyleCop.CSharp.ReadabilityRules">
+      <Rules>
+        <Rule Name="PrefixLocalCallsWithThis">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="PrefixCallsCorrectly">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="UseBuiltInTypeAlias">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings />
+    </Analyzer>
+    <Analyzer AnalyzerId="StyleCop.CSharp.NamingRules">
+      <Rules>
+        <Rule Name="FieldNamesMustNotBeginWithUnderscore">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings />
+    </Analyzer>
+    <Analyzer AnalyzerId="StyleCopPlus.StyleCopPlusRules">
+      <Rules>
+        <Rule Name="CodeLineMustNotBeLongerThan">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="MethodMustNotContainMoreLinesThan">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="PropertyMustNotContainMoreLinesThan">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="FileMustNotContainMoreLinesThan">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+        <Rule Name="CheckWhetherLastCodeLineIsEmpty">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings>
+        <StringProperty Name="AdvancedNaming_Namespace">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_ClassNotInternal">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_ClassInternal">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_StructNotInternal">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_StructInternal">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_Interface">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_Enum">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_EnumItem">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_PublicInstanceField">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_ProtectedInstanceField">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_PrivateInstanceField">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_InternalInstanceField">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_PublicStaticField">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_ProtectedStaticField">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_PrivateStaticField">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_InternalStaticField">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_PublicConst">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_ProtectedConst">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_PrivateConst">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_InternalConst">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_Property">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_MethodGeneral">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_MethodPrivateEventHandler">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_MethodProtectedEventHandler">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_MethodTest">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_Event">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_Delegate">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_Parameter">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_TypeParameter">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_LocalVariable">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_LocalConstant">
+        </StringProperty>
+        <StringProperty Name="AdvancedNaming_Label">
+        </StringProperty>
+      </AnalyzerSettings>
+    </Analyzer>
+    <Analyzer AnalyzerId="StyleCop.CSharp.LayoutRules">
+      <Rules>
+        <Rule Name="CurlyBracketsMustNotBeOmitted">
+          <RuleSettings>
+            <BooleanProperty Name="Enabled">False</BooleanProperty>
+          </RuleSettings>
+        </Rule>
+      </Rules>
+      <AnalyzerSettings />
+    </Analyzer>
+  </Analyzers>
+</StyleCopSettings>

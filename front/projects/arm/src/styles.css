@@ -1,0 +1,239 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/roboto-300.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/roboto-400.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/roboto-500.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/roboto-700.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --size-header-five: 24px;
+    --size-header-six: 20px;
+
+    --color-basic-black: #231F20;
+    --color-basic-lighter: #666666;
+    --color-basic-white: #FFFFFF;
+    --color-basic-accent: #F68833;
+    --color-accent-light: #F79852;
+    --color-accent-lighter: #FAB685;
+    --color-neutral-dark: #999999;
+    --color-neutral-gray: #B2B1B1;
+    --color-neutral-light: #F0F0F8;
+    --color-neutral-lighter: #F4F4F4;
+
+    --color-error: #F26666;
+    --color-disabled: #C4C4C4;
+    --color-disabled-text: #7A7A7A;
+    --color-disabled-label: #9E9E9E;
+
+    --border-radius-number: 20px;
+    --border-radius-small-number: 4px;
+    --transition-number: 0.2s;
+
+    --shadow-two:
+        0px 3px 6px rgba(0, 0, 0, 0.23),
+        0px 3px 6px rgba(0, 0, 0, 0.16);
+    --shadow-three:
+        0px 6px 6px rgba(0, 0, 0, 0.23),
+        0px 10px 20px rgba(0, 0, 0, 0.19);
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 1210px;
+    font-size: 16px;
+    line-height: 1.2;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: var(--color-basic-black);
+    background-color: var(--color-neutral-light);
+}
+
+body * {
+    outline-color: var(--color-basic-accent);
+}
+
+.container {
+    width: 1170px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+button {
+    font: inherit;
+}
+
+button:not(:disabled) {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input {
+    font: inherit;
+}
+
+.title {
+    margin: 0 0 25px;
+    font-weight: 400;
+    font-size: var(--size-header-five);
+    text-transform: uppercase;
+}
+
+.title-secondary {
+    margin: 0 0 3px;
+    font-weight: 500;
+    font-size: var(--size-header-six);
+}
+
+.button {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 16px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-basic-white);
+    letter-spacing: 0.08928em;
+    text-decoration: none;
+    background-color: var(--color-basic-accent);
+    border: 0;
+    border-radius: var(--border-radius-small-number);
+    box-sizing: border-box;
+    box-shadow: var(--shadow-two);
+    transition:
+        background-color var(--transition-number),
+        box-shadow var(--transition-number),
+        transform var(--transition-number);
+    outline: none;
+}
+
+.button:not(:disabled) {
+    cursor: pointer;
+}
+
+.button:not(:disabled):hover,
+.button:not(:disabled):active,
+.button:focus {
+    background-color: var(--color-accent-light);
+    box-shadow: var(--shadow-three);
+    transform: translate(0, -1px);
+}
+
+.button:disabled,
+.button.disabled {
+    color: var(--color-disabled-text);
+    background-color: var(--color-disabled);
+    box-shadow: none;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.content {
+    padding: 16px;
+    background-color: var(--color-basic-white);
+    box-shadow: var(--shadow-two);
+    border-radius: var(--border-radius-number);
+}
+
+.ngx-table {
+    font-family: inherit;
+    border-collapse: collapse;
+}
+
+.ngx-table a {
+    color: var(--color-basic-accent);
+    text-decoration: none;
+}
+
+.ngx-table a:hover {
+    text-decoration: underline;
+}
+
+.ngx-table tr:not(:only-child):nth-child(2n + 1) {
+    background-color: var(--color-neutral-lighter);
+}
+
+.ngx-table th,
+.ngx-table td {
+    border-bottom: 1px solid var(--color-neutral-dark) !important;
+}
+
+.ngx-table > thead > tr > th {
+    padding: 19px 16px 21px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--color-basic-black);
+}
+
+.ngx-table > tbody > tr > td {
+    padding: 18px 16px 17px;
+    color: var(--color-basic-lighter);
+}
+
+.ngx-table .active-column,
+.ngx-table .logout-column {
+    text-align: center;
+}
+
+.ngx-table .logout-column {
+    padding: 7px 16px 7px;
+}
+
+.ngx-table .button {
+    box-shadow: none;
+}
+
+.ngx-table .button:hover,
+.ngx-table .button:focus {
+    box-shadow: none;
+    transform: none;
+}
